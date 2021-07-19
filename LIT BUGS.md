@@ -8,7 +8,7 @@ Downloads:
 When I clicked the link the description I was presented with a website that looks a lot like the current ctf website. This website has only a home page, a register page, a login page, and a contest page. 
 After analyzing the source code given, I found that the website uses websockets for the register and login functions. In addition to this, there is also an endpoint that returns a teams name when given their ID.
 
-####Relevant code: 
+####Relevant code: ####
 
 	io.on('connection',(socket) => {
 		socket.on('login',(tn,pwd) => {
