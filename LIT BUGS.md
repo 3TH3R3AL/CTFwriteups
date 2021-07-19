@@ -1,13 +1,13 @@
 # web/LIT BUGS (92 solves / 129 points)
 ## Description
-Last year’s LIT platform may or may not have had some security vulnerabilities. We have created a simplified version of last year’s platform called LIT BUGS (Lexington Informatics Tournament’s Big Unsafe Grading System). The flag is the team name of the only registered user. Visit LIT BUGS [here](http://websites.litctf.live:8000/)
+Last yearâ€™s LIT platform may or may not have had some security vulnerabilities. We have created a simplified version of last yearâ€™s platform called LIT BUGS (Lexington Informatics Tournamentâ€™s Big Unsafe Grading System). The flag is the team name of the only registered user. Visit LIT BUGS [here](http://websites.litctf.live:8000/)
 Downloads:
 [LIT Bugs.zip](https://drive.google.com/uc?export=download&id=1KH4xaRabJVIFFfmNKxep5ZLFH24muqHy)
 
 ## Solution:
 When I clicked the link the description I was presented with a website that looks a lot like the current ctf website. This website has only a home page, a register page, a login page, and a contest page. 
 After analyzing the source code given, I found that the website uses websockets for the register and login functions. In addition to this, there is also an endpoint that returns a teams name when given their ID.
-####Relevant code: 
+###Relevant code: 
 	io.on('connection',(socket) => {
 		socket.on('login',(tn,pwd) => {
 			if(accounts[tn] == undefined || accounts[tn]["password"] != md5(pwd)) {
