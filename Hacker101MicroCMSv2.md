@@ -14,6 +14,7 @@
 
 <details>
 <summary>Headers</summary>
+
 ```html
 Date
 Content-Type
@@ -24,6 +25,7 @@ Server
 </details>
 <details>
 <summary>Response</summary>
+
 ```html
 
 <!doctype html>
@@ -68,6 +70,7 @@ Server
 
 <details>
 <summary>Headers</summary>
+
 ```html
 Date
 Content-Type
@@ -78,6 +81,7 @@ Server
 </details>
 <details>
 <summary>Response</summary>
+
 ```html
 
 <!doctype html>
@@ -120,6 +124,7 @@ Server
 
 <details>
 <summary>Headers</summary>
+
 ```html
 Date
 Content-Type
@@ -130,6 +135,7 @@ Server
 </details>
 <details>
 <summary>Response</summary>
+
 ```html
 
 <!doctype html>
@@ -174,6 +180,7 @@ Server
 
 <details>
 <summary>Headers</summary>
+
 ```html
 Date
 Content-Type
@@ -185,6 +192,7 @@ Location
 </details>
 <details>
 <summary>Response</summary>
+
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>Redirecting...</title>
@@ -205,6 +213,7 @@ Location
 
 <details>
 <summary>Headers</summary>
+
 ```html
 Date
 Content-Type
@@ -215,6 +224,7 @@ Server
 </details>
 <details>
 <summary>Response</summary>
+
 ```html
 
 <!doctype html>
